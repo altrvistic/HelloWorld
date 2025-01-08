@@ -60,6 +60,7 @@ div.about {
     padding-left: 40px;
     padding-right: 40px;
     width: 260px;
+    font-family: "Mansalva," Georgia, Times, 'Times New Roman', serif;
 
 }
 
@@ -102,3 +103,10 @@ div.calico img {
     box-shadow: none;
     margin: 15px;
 }
+
+.mansalva-regular {
+    font-family: "Mansalva", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
