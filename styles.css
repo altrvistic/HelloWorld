@@ -37,7 +37,7 @@ h1 {
     background-size: 30%;
     border-radius: 1000px;
     border: 2px solid rgb(255, 244, 174);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Croissant One", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 div.first {
@@ -53,7 +53,7 @@ div.desc {
     background-color:rgb(45, 29, 24);
     border-radius: 50px;
     box-shadow: 3px 3px 0px rgb(255, 244, 174);
-    font-family: "Mansalva," Arial, Helvetica, sans-serif
+    font-family: "Mansalva", Arial, Helvetica, sans-serif
 }
 
 div.about {
@@ -71,8 +71,11 @@ div.about {
     padding-left: 40px;
     padding-right: 40px;
     width: 260px;
-    font-family: "Mansalva," Georgia, 'Times New Roman', Times, serif;
+    font-family: "Croissant One", Arial, Helvetica, sans-serif;
+}
 
+div.about p {
+    font-family: "Mansalva", Georgia, 'Times New Roman', Times, serif;
 }
 
 div.about h2 {
@@ -83,6 +86,8 @@ div.about h2 {
     border-radius: 20px;
     border-width: 3px;
     border-style: dotted;
+    font-family: "Croissant One", Arial, Helvetica, sans-serif;
+    font-size: large;
 }
 
 .section2 {
@@ -117,6 +122,12 @@ div.calico img {
 
 .mansalva-regular {
     font-family: "Mansalva", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .croissant-one-regular {
+    font-family: "Croissant One", serif;
     font-weight: 400;
     font-style: normal;
   }
